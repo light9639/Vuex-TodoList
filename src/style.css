@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	color: #2c3e50;
+	font-family: Karla, sans-serif;
+	font-size: 16px;
+	margin: 0;
+	height: 100vh;
+	background-image: url('https://www.vuemastery.com/images/courses/studyroom-standard.png');
+	background-size: cover;
+	background-color: #0009;
+	background-blend-mode: darken;
+	color: #333;
+}
+
+::-webkit-scrollbar {
+	height: 10px;
+	width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-clip: padding-box;
+	background-color: #b4c7d0;
+	border: 3px solid transparent;
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-track-piece {
+	background: 0 0;
+}
+
+#app {
+	max-width: 510px;
+	margin: 50px auto;
+	padding: 0 10px;
+}
+
+@media screen and (max-width: 767px) {
+	#app {
+		max-width: 98%;
+		width: 100%;
+	}
+}
