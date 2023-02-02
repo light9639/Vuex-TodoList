@@ -1,4 +1,4 @@
-# :zap: Vuex-TodoList 프로젝트 소개
+# 📝 Vuex-TodoList 프로젝트 소개
 :octocat: 바로가기 https://light9639.github.io/Vuex-TodoList/
 
 ![light9639 github io_Vuex-TodoList_ (2)](https://user-images.githubusercontent.com/95972251/213455952-06bd0e3b-a0c5-407b-9af3-a4d2a8bfb608.png)
