@@ -28,5 +28,5 @@ yarn dev
 ### :zap: Vuex
 - Vue.js의 상태관리 라이브러리인 Vuex를 사용하여 state를 생성 및 수정하도록 만들었습니다.
 - `this.$store.state.commit`, `this.$store.state.dispatch` 문을 간소화하기 위하여 `mapState`, `mapMutations`를 사용하여 간소화시켰습니다.
-### :zap: uex-persistedstate
+### :zap: Vuex-persistedstate
 - Vuex-persistedstate 라이브러리를 통해 Vuex 데이터를 Localstorage에 저장함으로써 새로고침을 해도 데이터가 사라지지 않습니다.
